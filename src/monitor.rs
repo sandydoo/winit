@@ -101,7 +101,7 @@ impl std::fmt::Display for VideoMode {
 /// [`Window`]: crate::window::Window
 #[derive(Debug, Clone, PartialEq, Eq, PartialOrd, Ord)]
 pub struct MonitorHandle {
-    pub(crate) inner: platform_impl::MonitorHandle,
+    pub inner: platform_impl::MonitorHandle,
 }
 
 impl MonitorHandle {
